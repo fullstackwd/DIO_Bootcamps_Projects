@@ -1,46 +1,40 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DIO.SERIES.Interfaces;
+using DIO.Series.Interfaces;
 
-namespace DIO.SERIES.Classes
+namespace DIO.Series
 {
-    class SerieRepositorio : IRepositorio<Serie> // reaprovetando interface
-
-    {
+	public class SerieRepositorio : IRepositorio<Serie>
+	{
         private List<Serie> listaSerie = new List<Serie>();
-        public void Atualiza(int id, Serie objeto)
-        {
-            listaSerie[id] = objeto;
-        }
+		public void Atualiza(int id, Serie objeto)
+		{
+			listaSerie[id] = objeto;
+		}
 
-        public void Exclui(int id)
-        {
-            listaSerie[id].Excluir();
-            // poderia implementar email aqui
-        }
+		public void Exclui(int id)
+		{
+			listaSerie[id].Excluir();
+		}
 
-        public void Insere(Serie objeto)
-        {
-            listaSerie.Add(objeto);
+		public void Insere(Serie objeto)
+		{
+			listaSerie.Add(objeto);
+		}
 
-        }
+		public List<Serie> Lista()
+		{
+			return listaSerie;
+		}
 
-        public List<Serie> Lista()
-        {
-            return listaSerie;
-        }
+		public int ProximoId()
+		{
+			return listaSerie.Count;
+		}
 
-        public int ProximoId()
-        {
-            return listaSerie.Count;
-        }
-
-        public Serie RetornaPorId(int id)
-        {
-            return listaSerie[id];
-        }
-    }
+		public Serie RetornaPorId(int id)
+		{
+			return listaSerie[id];
+		}
+	}
 }
