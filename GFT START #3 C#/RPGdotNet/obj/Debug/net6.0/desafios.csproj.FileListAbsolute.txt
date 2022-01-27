@@ -1,0 +1,30 @@
+C:\Users\jylai\OneDrive - Fatec Centro Paula Souza\Aulas\BootCamps\GFT\desafios\bin\Debug\net6.0\desafios.exe
+C:\Users\jylai\OneDrive - Fatec Centro Paula Souza\Aulas\BootCamps\GFT\desafios\bin\Debug\net6.0\desafios.deps.json
+C:\Users\jylai\OneDrive - Fatec Centro Paula Souza\Aulas\BootCamps\GFT\desafios\bin\Debug\net6.0\desafios.runtimeconfig.json
+C:\Users\jylai\OneDrive - Fatec Centro Paula Souza\Aulas\BootCamps\GFT\desafios\bin\Debug\net6.0\desafios.dll
+C:\Users\jylai\OneDrive - Fatec Centro Paula Souza\Aulas\BootCamps\GFT\desafios\bin\Debug\net6.0\ref\desafios.dll
+C:\Users\jylai\OneDrive - Fatec Centro Paula Souza\Aulas\BootCamps\GFT\desafios\bin\Debug\net6.0\desafios.pdb
+C:\Users\jylai\OneDrive - Fatec Centro Paula Souza\Aulas\BootCamps\GFT\desafios\obj\Debug\net6.0\desafios.csproj.AssemblyReference.cache
+C:\Users\jylai\OneDrive - Fatec Centro Paula Souza\Aulas\BootCamps\GFT\desafios\obj\Debug\net6.0\desafios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jylai\OneDrive - Fatec Centro Paula Souza\Aulas\BootCamps\GFT\desafios\obj\Debug\net6.0\desafios.AssemblyInfoInputs.cache
+C:\Users\jylai\OneDrive - Fatec Centro Paula Souza\Aulas\BootCamps\GFT\desafios\obj\Debug\net6.0\desafios.AssemblyInfo.cs
+C:\Users\jylai\OneDrive - Fatec Centro Paula Souza\Aulas\BootCamps\GFT\desafios\obj\Debug\net6.0\desafios.csproj.CoreCompileInputs.cache
+C:\Users\jylai\OneDrive - Fatec Centro Paula Souza\Aulas\BootCamps\GFT\desafios\obj\Debug\net6.0\desafios.dll
+C:\Users\jylai\OneDrive - Fatec Centro Paula Souza\Aulas\BootCamps\GFT\desafios\obj\Debug\net6.0\ref\desafios.dll
+C:\Users\jylai\OneDrive - Fatec Centro Paula Souza\Aulas\BootCamps\GFT\desafios\obj\Debug\net6.0\desafios.pdb
+C:\Users\jylai\OneDrive - Fatec Centro Paula Souza\Aulas\BootCamps\GFT\desafios\obj\Debug\net6.0\desafios.genruntimeconfig.cache
+C:\Users\mecha\Documents\GitHub\Projeto.Net1\bin\Debug\net6.0\desafios.exe
+C:\Users\mecha\Documents\GitHub\Projeto.Net1\bin\Debug\net6.0\desafios.deps.json
+C:\Users\mecha\Documents\GitHub\Projeto.Net1\bin\Debug\net6.0\desafios.runtimeconfig.json
+C:\Users\mecha\Documents\GitHub\Projeto.Net1\bin\Debug\net6.0\desafios.dll
+C:\Users\mecha\Documents\GitHub\Projeto.Net1\bin\Debug\net6.0\ref\desafios.dll
+C:\Users\mecha\Documents\GitHub\Projeto.Net1\bin\Debug\net6.0\desafios.pdb
+C:\Users\mecha\Documents\GitHub\Projeto.Net1\obj\Debug\net6.0\desafios.csproj.AssemblyReference.cache
+C:\Users\mecha\Documents\GitHub\Projeto.Net1\obj\Debug\net6.0\desafios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mecha\Documents\GitHub\Projeto.Net1\obj\Debug\net6.0\desafios.AssemblyInfoInputs.cache
+C:\Users\mecha\Documents\GitHub\Projeto.Net1\obj\Debug\net6.0\desafios.AssemblyInfo.cs
+C:\Users\mecha\Documents\GitHub\Projeto.Net1\obj\Debug\net6.0\desafios.csproj.CoreCompileInputs.cache
+C:\Users\mecha\Documents\GitHub\Projeto.Net1\obj\Debug\net6.0\desafios.dll
+C:\Users\mecha\Documents\GitHub\Projeto.Net1\obj\Debug\net6.0\ref\desafios.dll
+C:\Users\mecha\Documents\GitHub\Projeto.Net1\obj\Debug\net6.0\desafios.pdb
+C:\Users\mecha\Documents\GitHub\Projeto.Net1\obj\Debug\net6.0\desafios.genruntimeconfig.cache
