@@ -1,0 +1,16 @@
+.sairInfantil {
+    background: var(--vermelho);
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 0;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.sairInfantil a {
+    color: var(--branco);
+}
+
+.sairInfantil:hover {
+    background: darkred;
+}

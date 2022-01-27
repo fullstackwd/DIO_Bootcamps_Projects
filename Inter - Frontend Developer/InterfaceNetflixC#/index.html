@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!-- Resposivo-->
+    <link rel="stylesheet" href="style/responsive.css">
+    <!-- Owl Css-->
+    <link rel="stylesheet" href="style/Owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/Owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style/w3.css">
+
+    <title>Netflix</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="logo"><img src="img/logo.png" alt=""></div>
+            <nav class="nav-principal">
+                <a href="#">Inicio</a>
+                <a href="#">Filmes</a>
+                <a href="#">Series</a>
+                <a href="#">Documentarios</a>
+                <a href="#">Assista de Novo</a>
+            </nav>
+            <nav class="nav-secundaria">
+                <div class="pesquisar">
+                    <div style="display: none;" id="Pesquisa">
+                        <input type="text" onmouseout="NPesquisar()" id="InputPesquisa" name="Pesquisar"
+                            placeholder="Buscar ..." />
+                        <a href="#"><i id="IconPesquisa" class="fas fa-search  fa-lg"></i></a>
+                    </div>
+
+                    <a href="#" onclick="Pesquisar()"><i id="IconPesquisa" class="fas fa-search  fa-lg"></i></a>
+                </div>
+
+                <a href="src/infantil_principal.html">Infantil</a>
+                <a href="#"><i class="fas fa-bell  fa-lg"></i></a>
+                <div><img class="perfil" src="img/perfil.jfif" alt="" srcset=""></div>
+            </nav>
+
+        </div>
+
+
+
+    </header>
+    <main>
+        <video id="video" width="100%" height="240" autoplay muted loop>
+            <source src="img/Bordertown.mp4" type="video/mp4">
+        </video>
+        <div class="filme-principal">
+
+            <div class="container">
+
+                <h3 class="titulo">BORDERTOWN</h3>
+                <p class="descricao">
+                    Um detetive aceita um emprego em uma pequena cidade para passar mais tempo com a família. Mas logo
+                    se vê envolvido em uma teia de assassinatos perturbadores.
+                </p>
+
+            </div>
+            <div class="botoes">
+                <button role="button" id="botao1"><i class="fas fa-play"></i>ASSISTIR</button>
+                <button role="button" id="botao2" onclick="document.getElementById('modal').style.display='block'"><i
+                        class="fas fa-info-circle fa-lg"></i>Mais Informaçoes</button>
+            </div>
+        </div>
+        <div id="modal" class="w3-modal w3-animate-opacity">
+            <div class="w3-modal-content w3-card-4">
+                <div id="headerModal" class="w3-container w3-teal">
+                    <video id="video" width="100%" height="240" autoplay muted loop>
+                        <source src="img/Bordertown.mp4" type="video/mp4">
+                    </video>
+                    <div class="filme-principal">
+                        <i class="far fa-times-circle fa-2x"
+                            onclick="document.getElementById('modal').style.display='none'"></i>
+                        <div class="container">
+                            <h3 class="titulo">BORDERTOWN</h3>
+
+                        </div>
+                        <div class="botoesModal">
+                            <button role="button" id="botao1"><i class="fas fa-play"></i>ASSISTIR</button>
+                            <i id="icons" class="fas fa-plus-circle fa-2x"></i>
+                            <i id="icons" class="far fa-thumbs-up fa-2x"></i>
+                            <i id="icons" class="far fa-thumbs-down fa-2x"></i>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="w3-container">
+                    <nav class="navPrincipal">
+                        <nav class="navSecundaria">
+                            <div>
+                                <nav class="navPrincipal">
+                                    <p>
+                                        2019
+                                    <div id="idade">16</div> 3 temporadas HD
+                                    </p>
+                                </nav>
+
+                            </div>
+                            <div>
+                                <p class="descricaoModal">
+                                    Um detetive aceita um emprego em uma pequena cidade para passar mais tempo com a
+                                    família. Mas logo
+                                    se vê envolvido em uma teia de assassinatos perturbadores.
+                                </p>
+                            </div>
+                        </nav>
+                        <nav class="navSecundaria2">
+                            <div>
+                                Elenco: Ville Virtanen Kari Sorjonen
+                                Anu Sinisalo
+                                Ilkka Villi
+                                Laura Malmivaara
+                                Matleena Kuusniemi
+                            </div>
+                            <div>
+                                Genero: Noir nórdico • drama • série criminal
+                            </div>
+                            <div>Cenas e Momentos: Violentos, sombrios, suspense no ar</div>
+                        </nav>
+
+                    </nav>
+                    <div class="temporadas">
+                        <div class="w3-bar w3-border-bottom">
+                            <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'primeira')"> <a
+                                    href="#footerModal">1ª
+                                    Temporada</a></button>
+                            <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'segunda')"><a
+                                    href="#footerModal">2ª
+                                    Temporada</a></button>
+                            <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'terceira')"><a
+                                    href="#footerModal">3ª
+                                    Temporada</a></button>
+                        </div>
+
+                        <div id="primeira" class="w3-container city">
+
+                            <p>Episódio 1: A Casa de Bonecas - Parte 1</p>
+                            <p>Episódio 2: A Casa de Bonecas - Parte 2</p>
+                            <p>Episodio 3: A Casa de Bonecas - Parte 3</p>
+                            <p>Episódio 4: Libélulas - Parte 1</p>
+                            <p>Episódio 5: Libélulas - Parte 2</p>
+                            <p>Episódio 6: A Fúria - Parte 1</p>
+                            <p>Episódio 7: A Fúria - Parte 2</p>
+                            <p>Episódio 8: A Mulher no Lago - Parte 1</p>
+                            <p>Episódio 9: A Mulher no Lago - Parte 2</p>
+                            <p>Episódio 10: O Jogo Final - Parte 1</p>
+                            <p>Episódio 11: O Jogo Final - Parte 2</p>
+
+
+                        </div>
+
+                        <div id="segunda" class="w3-container city">
+                            <p>Episódio 1: Exercício dos Cinco Dedos - Parte 1</p>
+                            <p>Episódio 2: Exercício dos Cinco Dedos - Parte 2</p>
+                            <p>Episodio 3: A Sagração da Primavera - Parte 1</p>
+                            <p>Episódio 4: A Sagração da Primavera - Parte 2</p>
+                            <p>Episódio 5: Cama de Gato - Parte 1</p>
+                            <p>Episódio 6: Cama de Gato - Parte 2</p>
+                            <p>Episódio 7: O Sangue da Sereia - Parte 1</p>
+                            <p>Episódio 8: O Sangue da Sereia - Parte 2</p>
+                            <p>Episódio 9: Sem Sombra - Parte 1</p>
+                            <p>Episódio 10: Sem Sombra - Parte 2</p>
+                        </div>
+
+                        <div id="terceira" class="w3-container city">
+                            <p>Episódio 1: A Marca Humana</p>
+                            <p>Episódio 2: A Fera Humana 1/2</p>
+                            <p>Episodio 3: A Fera Humana 2/2</p>
+                            <p>Episódio 4: Filhos e Amantes 1/3</p>
+                            <p>Episódio 5: Filhos e Amantes 2/3</p>
+                            <p>Episódio 6: Filhos e Amantes 3/3</p>
+                            <p>Episódio 7: A Dama no Espelho 1/2</p>
+                            <p>Episódio 8: A Dama no Espelho 2/2</p>
+                            <p>Episódio 9: Xadrez 1/2</p>
+                            <p>Episódio 10: Xadrez 2/2</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="footerModal" class="w3-container w3-teal">
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <div class="carrosel-filmes">
+        <h2 class="classificacao">Minha Lista</h2>
+        <div id="minhaLista" class="owl-carousel owl-theme">
+            <div class="item"><img src="img/generos/list (1).jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/list (2).jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/list (3).jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/list (4).jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/list (5).jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/list (6).jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/list (7).jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/list (8).jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/list (9).jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/list (10).jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/list (11).jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/list (12).jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/list (13).jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/list (14).jpg" alt="" srcset="" class="box-filme"></div>
+        </div>
+        <h2 class="classificacao">Ação & Aventura</h2>
+        <div id="acao" class="owl-carousel owl-theme">
+            <div class="item"><img src="img/generos/acao1.jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/acao2.jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/acao3.jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/acao4.jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/acao5.jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/acao6.jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/acao7.jpg" alt="" srcset="" class="box-filme"></div>
+        </div>
+        <h2 class="classificacao">Drama</h2>
+        <div id="drama" class="owl-carousel owl-theme">
+            <div class="item"><img src="img/generos/drama1.jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/drama2.jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/drama3.jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/drama4.jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/drama5.jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/drama6.jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/drama7.jpg" alt="" srcset="" class="box-filme"></div>
+        </div>
+        <h2 class="classificacao">Crime</h2>
+        <div id="crime" class="owl-carousel owl-theme">
+            <div class="item"><img src="img/generos/crime1.jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/crime2.jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/crime3.jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/crime4.jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/crime5.jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/crime6.jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="img/generos/crime7.jpg" alt="" srcset="" class="box-filme"></div>
+        </div>
+    </div>
+
+
+    <footer>
+        <nav>
+            <a href="https://twitter.com/i/flow/login?input_flow_data=%7B" target="_black"><i
+                    class="fab fa-twitter fa-2x"></i></a>
+            <a href="https://www.facebook.com" target="_black"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g fa-2x" target="_black"></i></a>
+            <a href="https://www.instagram.com" target="_black"><i class="fab fa-instagram fa-2x"></i></a>
+        </nav>
+        <nav>
+            <div><a href="#">Idiomas e Legendas</a></div>
+            <div><a href="#">Termos de Uso</a></div>
+
+        </nav>
+        <nav>
+            <div><a href="#">Preferências de Cookies</a></div>
+            <div><a href="#">Entre em Contato</a></div>
+
+        </nav>
+        <nav>
+            <div><a href="#">Centro de Ajuda</a></div>
+            <div><a href="#">Trabalhe conosco</a></div>
+        </nav>
+        <nav>
+            <div><a href="#">Cartão pré-pago</a></div>
+        </nav>
+    </footer>
+
+    <!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/41c07773a5.js" crossorigin="anonymous"></script>
+    <!-- Own Jquery carrosel-->
+
+    <script src="js/Owl/jquery.min.js"></script>
+    <script src="js/Owl/owl.carousel.min.js"></script>
+    <script src="js/Owl/setup.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

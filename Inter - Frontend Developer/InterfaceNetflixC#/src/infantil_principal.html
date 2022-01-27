@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="../style/infantil.css">
+    <!-- Resposivo-->
+    <link rel="stylesheet" href="../style/responsive.css">
+    <!-- Owl Css-->
+    <link rel="stylesheet" href="../style/Owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="../style/Owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../style/w3.css">
+    <title>Netflix - Infantil</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="logo"><img src="../img/logo.png" alt=""></div>
+            <nav class="nav-principal">
+                <a href="#">Inicio</a>
+                <a href="#">Personagens</a>
+                <a href="#">Filmes</a>
+                <a href="#">Series</a>
+                <a href="#">Documentarios</a>
+                <a href="#">Assista de Novo</a>
+            </nav>
+            <nav class="nav-secundaria">
+                <div class="pesquisar">
+                    <div style="display: none;" id="Pesquisa">
+                        <input type="text" onmouseout="NPesquisar()" id="InputPesquisa" name="Pesquisar"
+                            placeholder="Buscar ..." />
+                        <a href="#"><i id="IconPesquisa" class="fas fa-search  fa-lg"></i></a>
+                    </div>
+
+                    <a href="#" onclick="Pesquisar()"><i id="IconPesquisa" class="fas fa-search  fa-lg"></i></a>
+                </div>
+
+                <div>
+                    <button type="button" class="sairInfantil"> <a href="../index.html">Sair do Infantil</a></button>
+                </div>
+                <div><img class="perfil" src="../img/perfilinfantil.png" alt="" srcset=""></div>
+
+            </nav>
+
+        </div>
+
+
+
+    </header>
+
+    <main>
+        <video id="video" width="100%" height="240" autoplay muted loop>
+            <source src="../img/MyLitlepony.mp4" type="video/mp4">
+        </video>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">My Little Pony</h3>
+                <p class="descricao">
+                    A paz reina em Equestria, quando a pônei Twilight Sparkle se prepara para criar uma
+                    festa fabulosa para os habitantes locais. Mas os planos são arruinados pele chegada
+                    do Rei Storm e da inimiga Tempesta, que planejam roubar os poderes das princesas na
+                    intenção de controlar o clima e dominar o mundo.
+                </p>
+            </div>
+            <div class="botoes">
+                <button role="button" class="botao" id="botao1"><i class="fas fa-play"></i>ASSISTIR</button>
+                <button role="button" class="botao" id="botao2"
+                    onclick="document.getElementById('modal').style.display='block'"><i
+                        class="fas fa-info-circle fa-lg"></i>Mais
+                    Informaçoes</button>
+            </div>
+
+
+        </div>
+        <div id="modal" class="w3-modal w3-animate-opacity">
+            <div class="w3-modal-content w3-card-4">
+                <div id="headerModal" class="w3-container w3-teal">
+                    <video id="video" width="100%" height="240" autoplay muted loop>
+                        <source src="../img/MyLitlepony.mp4" type="video/mp4">
+                    </video>
+                    <div class="filme-principal">
+                        <i class="far fa-times-circle fa-2x"
+                            onclick="document.getElementById('modal').style.display='none'"></i>
+                        <div class="container">
+                            <h3 class="titulo">My Little Pony</h3>
+
+                        </div>
+                        <div class="botoesModal">
+                            <button role="button" id="botao1"><i class="fas fa-play"></i>ASSISTIR</button>
+                            <i id="icons" class="fas fa-plus-circle fa-2x"></i>
+                            <i id="icons" class="far fa-thumbs-up fa-2x"></i>
+                            <i id="icons" class="far fa-thumbs-down fa-2x"></i>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="w3-container">
+                    <nav class="navPrincipal">
+                        <nav class="navSecundaria">
+                            <div>
+                                <nav class="navPrincipal">
+                                    <p>
+                                        2018
+                                    <div id="idade">L</div> 4 temporadas HD
+                                    </p>
+                                </nav>
+
+                            </div>
+                            <div>
+                                <p class="descricaoModal">
+                                    A paz reina em Equestria, quando a pônei Twilight Sparkle se prepara para criar uma
+                                    festa fabulosa para os habitantes locais. Mas os planos são arruinados pele chegada
+                                    do Rei Storm e da inimiga Tempesta, que planejam roubar os poderes das princesas na
+                                    intenção de controlar o clima e dominar o mundo.
+                                </p>
+                            </div>
+                        </nav>
+                        <nav class="navSecundaria2">
+                            <div>
+                                Elenco: Tara Strong (Twilight Sparkle)
+                                Ashleigh Ball
+                                Andrea Libman
+                                Tabitha St. Germain
+                            </div>
+                            <div>
+                                Genero: Programas Infantis • Musical • Desenhos Animados
+                            </div>
+                        </nav>
+
+                    </nav>
+                    <div class="temporadas">
+                        <div class="w3-bar w3-border-bottom">
+                            <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'primeira')"> <a
+                                    href="#footerModal">1ª
+                                    Temporada</a></button>
+                            <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'segunda')"><a
+                                    href="#footerModal">2ª
+                                    Temporada</a></button>
+                            <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'terceira')"><a
+                                    href="#footerModal">3ª
+                                    Temporada</a></button>
+                            <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'quarta')"><a
+                                    href="#footerModal">4ª
+                                    Temporada</a></button>
+                        </div>
+
+                        <div id="primeira" class="w3-container city">
+
+                            <p>Episódio 1: A Amizade é Mágica (Parte 1)</p>
+                            <p>Episódio 2: A Amizade é Mágica (Parte 2)</p>
+                            <p>Episodio 3: O Convite Extra</p>
+                            <p>Episódio 4: Temporada de Coice na Macieira</p>
+                            <p>Episódio 5: A Rainha das Brincadeiras</p>
+                            <p>Episódio 6: Caçadores de Exibicionistas</p>
+                            <p>Episódio 7: Dracofobia</p>
+                            <p>Episódio 8: Olhe Bem Antes de Ir Dormir</p>
+                            <p>Episódio 9: Rédea nas Fofocas</p>
+                            <p>Episódio 10: A Praga do Século</p>
+                            <p>Episódio 11: Passagem do Inverno</p>
+
+
+                        </div>
+
+                        <div id="segunda" class="w3-container city">
+                            <p>Episódio 1: Retorno à Harmonia parte 1</p>
+                            <p>Episódio 2: Retorno à Harmonia parte 2</p>
+                            <p>Episodio 3: Lição Zero</p>
+                            <p>Episódio 4: Eclipse da Luna</p>
+                            <p>Episódio 5: Encontro das Irmãs de Casco</p>
+                            <p>Episódio 6: Belas Pústulas</p>
+                            <p>Episódio 7: Que Ganhe o Melhor Animal de Estimação</p>
+                            <p>Episódio 8: A Misteriosa Égua do Bem</p>
+                            <p>Episódio 9: A Simplicidade e a Elite</p>
+                            <p>Episódio 10: O Segredo do Meu Excesso</p>
+                        </div>
+
+                        <div id="terceira" class="w3-container city">
+                            <p>Episódio 1: O Império do Cristal</p>
+                            <p>Episódio 2: O Império do Cristal</p>
+                            <p>Episodio 3: A Fera Humana 2/2</p>
+                            <p>Episódio 4: Excesso de Pinkie Pies</p>
+                            <p>Episódio 5: Uma Maçã Ruim</p>
+                            <p>Episódio 6: Duelo Mágico</p>
+                            <p>Episódio 7: Com Insônia em Ponyville</p>
+                            <p>Episódio 8: Academia Wonderbolts</p>
+                            <p>Episódio 9: Reunião da Família Apple</p>
+                            <p>Episódio 10: Spike às suas Ordens</p>
+                        </div>
+                        <div id="quarta" class="w3-container city">
+                            <p>Episódio 1: O Brilho da Princesa Twilight Sparkle</p>
+                            <p>Episódio 2: O Brilho da Princesa Twilight Sparkle</p>
+                            <p>Episodio 3: O Castelo Mania </p>
+                            <p>Episódio 4: Daring Do</p>
+                            <p>Episódio 5: Voo ao Infinito</p>
+                            <p>Episódio 6: Pôneis Poderosos</p>
+                            <p>Episódio 7: Morcegos!!!</p>
+                            <p>Episódio 8: Rarity Vai para Manehattan</p>
+                            <p>Episódio 9: Pinkie Apple Pie</p>
+                            <p>Episódio 10: A Queda de Rainbow</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="footerModal" class="w3-container w3-teal">
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="carrosel-filmes">
+        <h2 class="classificacao">Minha Lista</h2>
+        <div id="minhaLista" class="owl-carousel owl-theme">
+            <div class="item"><img src="../img/infantil/infantil1.jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="../img/infantil/infantil2.jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="../img/infantil/infantil3.jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="../img/infantil/infantil4.jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="../img/infantil/infantil5.jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="../img/infantil/infantil6.jpg" alt="" srcset="" class="box-filme"></div>
+            <div class="item"><img src="../img/infantil/infantil7.jpg" alt="" srcset="" class="box-filme"></div>
+        </div>
+    </div>
+
+
+    <footer>
+        <nav>
+            <a href="https://twitter.com/i/flow/login?input_flow_data=%7B" target="_black"><i
+                    class="fab fa-twitter fa-2x"></i></a>
+            <a href="https://www.facebook.com" target="_black"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g fa-2x" target="_black"></i></a>
+            <a href="https://www.instagram.com" target="_black"><i class="fab fa-instagram fa-2x"></i></a>
+        </nav>
+        <nav>
+            <div><a href="#">Idiomas e Legendas</a></div>
+            <div><a href="#">Termos de Uso</a></div>
+
+        </nav>
+        <nav>
+            <div><a href="#">Preferências de Cookies</a></div>
+            <div><a href="#">Entre em Contato</a></div>
+
+        </nav>
+        <nav>
+            <div><a href="#">Centro de Ajuda</a></div>
+            <div><a href="#">Trabalhe conosco</a></div>
+        </nav>
+        <nav>
+            <div><a href="#">Cartão pré-pago</a></div>
+        </nav>
+    </footer>
+
+    <!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/41c07773a5.js" crossorigin="anonymous"></script>
+    <!-- Own Jquery carrosel-->
+
+    <script src="../js/Owl/jquery.min.js"></script>
+    <script src="../js/Owl/owl.carousel.min.js"></script>
+    <script src="../js/Owl/setup.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

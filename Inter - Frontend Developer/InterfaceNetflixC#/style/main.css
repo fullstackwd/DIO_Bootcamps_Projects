@@ -1,0 +1,299 @@
+:root {
+    --vermelho: #e50914;
+    --preto: #141414;
+    --branco: white;
+    --hover: #AAA;
+    --fundo: rgba(20, 20, 20);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos basicos*/
+body {
+    background: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: var(--branco);
+}
+
+header {
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    left: 0;
+
+}
+
+#header {
+    background-color: rgba(20, 20, 20, 0.4) !important;
+    transition: all 500ms linear;
+}
+
+#header.ativo {
+    background-color: rgba(20, 20, 20, 10) !important;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 50px 10px 50px;
+}
+
+header .container .nav-secundaria {
+    margin-inline-start: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pesquisar {
+    margin-block: auto;
+}
+
+#Pesquisa {
+    background-color: var(--preto);
+    border: solid 1px;
+    border-radius: 5px;
+    width: 230px;
+}
+
+#InputPesquisa {
+    float: left;
+    color: var(--branco);
+    background-color: transparent;
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 14px;
+    border: none;
+    height: 30px;
+    width: 230px;
+}
+
+header .logo img {
+    width: 90px;
+    margin-right: 10px;
+
+}
+
+header .perfil {
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--branco);
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: var(--hover);
+}
+
+/*Filme principal*/
+main .container,
+.botoes {
+    margin: 20px 50px 0 50px;
+}
+
+.botoesModal {
+    margin: 20px 50px 0 50px;
+}
+
+#icons {
+    margin: 10px;
+}
+
+i {
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+i:hover {
+    color: var(--hover);
+
+}
+
+
+
+.filme-principal {
+    font-size: 16px;
+    position: relative;
+
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.descricao {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    z-index: 5;
+}
+
+.descricaoModal {
+    margin-top: 10px;
+    z-index: 5;
+    margin-bottom: 40px;
+}
+
+#idade {
+    background: red;
+    width: 22px;
+    border-radius: 3px;
+    color: wheat;
+    margin: 0 5px 0 5px;
+}
+
+
+.filme-principal .titulo {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+button i {
+    margin-right: 10px;
+}
+
+#botao1 {
+    background-color: rgba(255, 255, 255);
+    color: var(--preto);
+}
+
+#botao2 {
+    background-color: rgba(105, 105, 106, .50);
+    color: var(--branco);
+}
+
+#botao1:hover {
+    background-color: rgba(169, 169, 169);
+    color: var(--preto);
+}
+
+#botao2:hover {
+    background-color: rgba(54, 54, 54, .50);
+    color: var(--branco);
+}
+
+
+
+.container {
+    margin-left: 10px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.carrosel-filmes {
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.classificacao {
+    margin: 10px 50px 10px 50px;
+}
+
+.item {
+    z-index: 5;
+    transition: transform 0.6s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.item:hover {
+    transform: scale(2.5);
+}
+
+footer {
+
+    margin: 10px 50px 50px 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--branco);
+    margin-right: 20px;
+    width: 5%;
+
+}
+
+footer nav {
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer nav div {
+    width: 50%;
+    margin: 15px 50px 0 0;
+}
+
+.navPrincipal {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 50px 30px 50px;
+}
+
+nav .navSecundaria {
+    display: flex;
+    flex-direction: column;
+}
+
+nav .navSecundaria2 {
+    display: flex;
+    flex-direction: column;
+}
+
+nav .navSecundaria2 div {
+    margin-bottom: auto;
+    font-size: 12px;
+}
+
+.temporadas {
+    margin: 0 50px 30px 50px;
+}
+
+.temporadas p {
+    margin: 10px;
+}
+
+video {
+    z-index: 0;
+    height: auto;
+    background-size: cover;
+    position: absolute;
+}
