@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "9Z+4yfSjtJVntyfNPrtjLDR33rPnWqW8VFwPoH0vcmQT6Im9jd1lsipumiiqhW5EpT1/jpiLG64PnuEoWQxYvA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mecha\\Documents\\GitHub\\dio-dotnet-poo-lab-21\\DIO.Series.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mecha\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\mecha\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\mecha\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\mecha\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}
