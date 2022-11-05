@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9Z+4yfSjtJVntyfNPrtjLDR33rPnWqW8VFwPoH0vcmQT6Im9jd1lsipumiiqhW5EpT1/jpiLG64PnuEoWQxYvA==",
+  "dgSpecHash": "VypZhnyt995xbm4pw3OQ3euuqirm5uhaMVrextqHkfqdNMbvG9NteKl5/5OE8iIOWLNscZlPiz/2ihjO29cMpg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mecha\\Documents\\GitHub\\dio-dotnet-poo-lab-21\\DIO.Series.csproj",
+  "projectFilePath": "c:\\Users\\mecha\\Documents\\GitHub\\DIO_Bootcamps_Projects\\dotNetFundamentals\\DIO.Series.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mecha\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
     "C:\\Users\\mecha\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",

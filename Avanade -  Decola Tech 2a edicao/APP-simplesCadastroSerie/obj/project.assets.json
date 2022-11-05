@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\mecha\\Documents\\GitHub\\NETFundamentals_021\\DIO.Series.csproj",
-      "projectName": "DIO.Series",
-      "projectPath": "c:\\Users\\mecha\\Documents\\GitHub\\NETFundamentals_021\\DIO.Series.csproj",
+      "projectUniqueName": "c:\\Users\\mecha\\Documents\\GitHub\\DIO_Bootcamps_Projects\\Avanade -  Decola Tech 2a edicao\\APP-simplesCadastroSerie\\DIO.SERIES.csproj",
+      "projectName": "DIO.SERIES",
+      "projectPath": "c:\\Users\\mecha\\Documents\\GitHub\\DIO_Bootcamps_Projects\\Avanade -  Decola Tech 2a edicao\\APP-simplesCadastroSerie\\DIO.SERIES.csproj",
       "packagesPath": "C:\\Users\\mecha\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\mecha\\Documents\\GitHub\\NETFundamentals_021\\obj\\",
+      "outputPath": "c:\\Users\\mecha\\Documents\\GitHub\\DIO_Bootcamps_Projects\\Avanade -  Decola Tech 2a edicao\\APP-simplesCadastroSerie\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mecha\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -76,7 +76,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

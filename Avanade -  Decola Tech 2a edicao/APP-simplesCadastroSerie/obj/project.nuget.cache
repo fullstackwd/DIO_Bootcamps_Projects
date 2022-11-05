@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ENbT5k39nTqfa+DMt2N5vV5g8aMcFwTNlaQiHM29v827ueW6UNzmT2R6p7ZjUcvr4Qg+kJoimA10yHP03mQ6tA==",
+  "dgSpecHash": "yxky2rBg34WcnxrmYTNIkOqgAPOjcIGBV6xxE2ZLpUQ++nozp/e2L0pf+XmT0NIAdBj4KUcQs7y4bJKCVg9OGw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\mecha\\Documents\\GitHub\\NETFundamentals_021\\DIO.Series.csproj",
+  "projectFilePath": "c:\\Users\\mecha\\Documents\\GitHub\\DIO_Bootcamps_Projects\\Avanade -  Decola Tech 2a edicao\\APP-simplesCadastroSerie\\DIO.SERIES.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mecha\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
     "C:\\Users\\mecha\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
