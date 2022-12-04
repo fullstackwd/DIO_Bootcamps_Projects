@@ -34,21 +34,4 @@ Revisar conceitos úteis para testes manuais no mundo ágil, bem como compreende
 
 ###### Intermediário
 
-------
 
-###### ESPECIALISTA
-
-![author](https://hermes.digitalinnovation.one/users/author/photos/084bc553-3d5b-475d-b38e-75f54b5299b3.jpg)
-
-###### Carolina Louzada
-
-Engenheira de Qualidade de Software, Digital Innovation One[**](https://www.linkedin.com/in/carolina-santana-louzada-436a1678/)
-
-# **Materiais de Apoio**  
-
-### **Slides**
-
-**A apresentação completa utilizada neste módulo está disponível [AQUI](https://academiapme-my.sharepoint.com/:p:/g/personal/renato_dio_me/EZn3n5RAgFFJgz1SePsXsxkBivxcAhWx90n9jzvRKFnX2Q?e=019g8H)**
-Com isso, você terá acesso a todos os slides e links explorados durante as aulas.
-
-Bons estudos! ![wink](https://app.digitalinnovation.one/static/ckeditor/ckeditor/plugins/smiley/images/wink_smile.png)
